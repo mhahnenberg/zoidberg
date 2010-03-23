@@ -1,0 +1,64 @@
+## SCL Builder Setup File: Do not edit!!
+
+## VERSION: 3.60.00.00
+## FORMAT:  v2.00.01
+## DEVICE:  dsPIC33FJ64MC802
+
+## PINREGACTIONS
+ms
+1
+0
+AN0
+--
+&
+## ADVPINREGACTIONS
+--
+2
+COND1
+
+
+
+--
+&
+--
+COND1
+Any
+
+
+
+
+
+
+--
+&
+## CLOCK
+&
+## STIMULUSFILE
+ADC
+ADC1BUF0
+Demand
+0000
+2
+analogsim1.txt
+Dec
+Yes
+(optional)
+--
+&
+## RESPONSEFILE
+PB
+PORTA
+Demand
+
+2
+portbout.txt
+Dec
+(optional)
+--
+&
+## ASYNCH
+&
+## ADVANCEDSCL
+
+1
+&

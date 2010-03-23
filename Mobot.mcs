@@ -1,0 +1,97 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=C:\Users\Jake\Documents\Mobot\Mobot\main.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128GP802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|main.c|adcgather.c|motors.c|matrix.c|calibrate.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\dsPIC33F\libp33FJ128GP802-coff.a||<lkr>|default.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DFCY=40000000UL -O2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File001]
+Location=C:\Users\Jake\Documents\Mobot\Mobot\adcgather.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128GP802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|main.c|adcgather.c|motors.c|matrix.c|calibrate.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\dsPIC33F\libp33FJ128GP802-coff.a||<lkr>|default.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DFCY=40000000UL -O2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File002]
+Location=C:\Users\Jake\Documents\Mobot\Mobot\motors.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128GP802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|main.c|adcgather.c|motors.c|matrix.c|calibrate.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\dsPIC33F\libp33FJ128GP802-coff.a||<lkr>|default.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DFCY=40000000UL -O2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File003]
+Location=C:\Users\Jake\Documents\Mobot\Mobot\matrix.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128GP802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|main.c|adcgather.c|motors.c|matrix.c|calibrate.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\dsPIC33F\libp33FJ128GP802-coff.a||<lkr>|default.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DFCY=40000000UL -O2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File004]
+Location=C:\Users\Jake\Documents\Mobot\Mobot\calibrate.o
+Folder=Intermediary
+DeviceName=dsPIC33FJ128GP802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={069BD372-6CA0-40D4-BF2F-5DC806D05083}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|main.c|adcgather.c|motors.c|matrix.c|calibrate.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\dsPIC33F\libp33FJ128GP802-coff.a||<lkr>|default.gld||
+SuiteArgsString=
+ToolArgsString=-g -Wall -DFCY=40000000UL -O2
+TraceCmdString=
+DebugOptions=-D__DEBUG
+[File005]
+Location=C:\Users\Jake\Documents\Mobot\Mobot\Mobot.cof
+Folder=Output
+DeviceName=dsPIC33FJ128GP802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|main.c|adcgather.c|motors.c|matrix.c|calibrate.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\dsPIC33F\libp33FJ128GP802-coff.a||<lkr>|default.gld||
+SuiteArgsString=
+ToolArgsString=--heap=512 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[File006]
+Location=C:\Users\Jake\Documents\Mobot\Mobot\Mobot.hex
+Folder=Output
+DeviceName=dsPIC33FJ128GP802
+LanguageToolSuiteID={479DDE59-4D56-455E-855E-FFF59A3DB57E}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib||$(LKRDIR)||
+SOLK=<src>|main.c|adcgather.c|motors.c|matrix.c|calibrate.c||<obj>||<lib>|C:\Program Files (x86)\Microchip\MPLAB C30\lib\dsPIC33F\libp33FJ128GP802-coff.a||<lkr>|default.gld||
+SuiteArgsString=
+ToolArgsString=--heap=512 -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem -o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)"
+TraceCmdString=
+DebugOptions=--defsym=__MPLAB_DEBUG=1
+[TOOL_LOC_STAMPS]
+tool_loc{069BD372-6CA0-40D4-BF2F-5DC806D05083}=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-gcc.exe
+tool_loc{433C3D55-811D-409D-A6BF-159CF9355B42}=C:\Program Files (x86)\Microchip\MPLAB C30\bin\pic30-ld.exe

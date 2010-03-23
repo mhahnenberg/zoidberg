@@ -1,0 +1,163 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+ADCCurrentSample	C:\Users\Jake\Documents\Mobot\Mobot\adcgather.c	7;"	v	line:7
+ADCGATHER_H	C:\Users\Jake\Documents\Mobot\Mobot\adcgather.h	2;"	d	line:2
+ADCSamples	C:\Users\Jake\Documents\Mobot\Mobot\adcgather.c	6;"	v	line:6
+AVG_CALIBRATE_POINT::5	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	16;"	d	line:16
+BAUDRATE::19200	C:\Users\Jake\Documents\Mobot\Mobot\config.h	7;"	d	line:7
+BRGVAL::((FCY/BAUDRATE)/16)-1	C:\Users\Jake\Documents\Mobot\Mobot\config.h	8;"	d	line:8
+CALIBRATE_H	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.h	2;"	d	line:2
+CENTER_SETPOINT::3.0	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	25;"	d	line:25
+CONFIG_H	C:\Users\Jake\Documents\Mobot\Mobot\config.h	2;"	d	line:2
+CONSTANTS_H	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	2;"	d	line:2
+DECISION_TEST_POINTS::4	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	18;"	d	line:18
+DECISION_THRESHOLD::(0.5)	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	19;"	d	line:19
+EMITTER_EVEN::LATBbits.LATB9	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	7;"	d	line:7
+EMITTER_ODD::LATBbits.LATB8	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	8;"	d	line:8
+ERROR_MARGIN::50	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	17;"	d	line:17
+FALSE::0	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	11;"	d	line:11
+FINAL_STAGE_NUM::1	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	20;"	d	line:20
+KD::0.0	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	42;"	d	line:42
+KI::0.0	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	41;"	d	line:41
+KP::0.365	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	40;"	d	line:40
+L::0	C:\Users\Jake\Documents\Mobot\Mobot\main.c	39;"	d	line:39	file:
+MATRIX_H	C:\Users\Jake\Documents\Mobot\Mobot\matrix.h	2;"	d	line:2
+MAX_SPEED_PERCENT::0.95	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	34;"	d	line:34
+MOTORS_H	C:\Users\Jake\Documents\Mobot\Mobot\motors.h	2;"	d	line:2
+MOTOR_ALPHA::((2.0)/(1.0+(18.0/dt)))	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	37;"	d	line:37
+MOTOR_BRAKE_LEFT::LATAbits.LATA4	C:\Users\Jake\Documents\Mobot\Mobot\motors.h	7;"	d	line:7
+MOTOR_BRAKE_RIGHT::LATBbits.LATB7	C:\Users\Jake\Documents\Mobot\Mobot\motors.h	8;"	d	line:8
+MOTOR_DIR_LEFT::LATBbits.LATB5	C:\Users\Jake\Documents\Mobot\Mobot\motors.h	11;"	d	line:11
+MOTOR_DIR_RIGHT::LATBbits.LATB6	C:\Users\Jake\Documents\Mobot\Mobot\motors.h	12;"	d	line:12
+MOTOR_MODE_BRAKE::1	C:\Users\Jake\Documents\Mobot\Mobot\motors.h	16;"	d	line:16
+MOTOR_MODE_COAST::0	C:\Users\Jake\Documents\Mobot\Mobot\motors.h	15;"	d	line:15
+MOTOR_PWM_PERIOD::0x80	C:\Users\Jake\Documents\Mobot\Mobot\motors.h	4;"	d	line:4
+NUM_CALIS::2	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	23;"	d	line:23
+NUM_STDDEVS::4	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	14;"	d	line:14
+OUTLED::LATBbits.LATB14	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	4;"	d	line:4
+R::2	C:\Users\Jake\Documents\Mobot\Mobot\main.c	41;"	d	line:41	file:
+S::1	C:\Users\Jake\Documents\Mobot\Mobot\main.c	40;"	d	line:40	file:
+SAMPLES::200	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	13;"	d	line:13
+SENSORS::7	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	21;"	d	line:21
+SPEED_STEP::0.001	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	32;"	d	line:32
+START_SPEED_PERCENT::0.0	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	33;"	d	line:33
+TEST_POINTS::9	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	15;"	d	line:15
+TRUE::1	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	10;"	d	line:10
+UNKNOWN_HIGH_CUTOFF::17	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	29;"	d	line:29
+UNKNOWN_LOW_CUTOFF::-2	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	28;"	d	line:28
+USER_BUTTON::PORTBbits.RB4	C:\Users\Jake\Documents\Mobot\Mobot\constants.h	5;"	d	line:5
+WEIGHTS_PAGE	C:\Users\Jake\Documents\Mobot\Mobot\main.c	22;"	v	line:22	file:
+_ADC1Interrupt	C:\Users\Jake\Documents\Mobot\Mobot\adcgather.c	70;"	f	line:70	signature:(void)
+_ADC1Interrupt	C:\Users\Jake\Documents\Mobot\Mobot\adcgather.h	15;"	p	line:15	signature:(void)
+_write_flash_word16	C:\Users\Jake\Documents\Mobot\Mobot\main.c	44;"	p	line:44	file:	signature:(_prog_addressT dst, int dat)
+absVal	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	40;"	l	line:40
+all_avgs	C:\Users\Jake\Documents\Mobot\Mobot\main.c	83;"	l	line:83
+all_mses	C:\Users\Jake\Documents\Mobot\Mobot\main.c	89;"	l	line:89
+all_stddevs	C:\Users\Jake\Documents\Mobot\Mobot\main.c	84;"	l	line:84
+best_mse	C:\Users\Jake\Documents\Mobot\Mobot\main.c	90;"	l	line:90
+best_mse_index	C:\Users\Jake\Documents\Mobot\Mobot\main.c	91;"	l	line:91
+block_for_user	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	163;"	f	line:163
+block_for_user	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.h	7;"	p	line:7	signature:(void)
+block_for_user	C:\Users\Jake\Documents\Mobot\Mobot\main.c	18;"	p	line:18	file:	signature:(void)
+button	C:\Users\Jake\Documents\Mobot\Mobot\main.c	49;"	l	line:49
+c	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	44;"	l	line:44
+center	C:\Users\Jake\Documents\Mobot\Mobot\main.c	54;"	l	line:54
+cntr	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	42;"	l	line:42
+cur	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	164;"	l	line:164
+dec_alpha	C:\Users\Jake\Documents\Mobot\Mobot\main.c	55;"	l	line:55
+dec_filter	C:\Users\Jake\Documents\Mobot\Mobot\main.c	55;"	l	line:55
+dec_num	C:\Users\Jake\Documents\Mobot\Mobot\main.c	51;"	l	line:51
+decision	C:\Users\Jake\Documents\Mobot\Mobot\main.c	49;"	l	line:49
+decision_calibrate	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	92;"	f	line:92	signature:(double *mean, double *stddev_samples)
+decision_calibrate	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.h	5;"	p	line:5	signature:(double *, double *)
+decision_remain	C:\Users\Jake\Documents\Mobot\Mobot\main.c	52;"	l	line:52
+delta	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	12;"	l	line:12
+delta	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	93;"	l	line:93
+derivError	C:\Users\Jake\Documents\Mobot\Mobot\main.c	54;"	l	line:54
+dt	C:\Users\Jake\Documents\Mobot\Mobot\main.c	58;"	l	line:58
+ema_lspeed	C:\Users\Jake\Documents\Mobot\Mobot\main.c	56;"	l	line:56
+ema_rspeed	C:\Users\Jake\Documents\Mobot\Mobot\main.c	56;"	l	line:56
+error	C:\Users\Jake\Documents\Mobot\Mobot\main.c	54;"	l	line:54
+first_avg	C:\Users\Jake\Documents\Mobot\Mobot\main.c	70;"	l	line:70
+first_stddevs	C:\Users\Jake\Documents\Mobot\Mobot\main.c	71;"	l	line:71
+i	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	15;"	l	line:15
+i	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	165;"	l	line:165
+i	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	94;"	l	line:94
+i	C:\Users\Jake\Documents\Mobot\Mobot\main.c	47;"	l	line:47
+i	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	13;"	l	line:13
+i	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	6;"	l	line:6
+ic	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	46;"	l	line:46
+in_decision	C:\Users\Jake\Documents\Mobot\Mobot\main.c	50;"	l	line:50
+integralError	C:\Users\Jake\Documents\Mobot\Mobot\main.c	54;"	l	line:54
+ir	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	45;"	l	line:45
+j	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	15;"	l	line:15
+j	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	94;"	l	line:94
+j	C:\Users\Jake\Documents\Mobot\Mobot\main.c	47;"	l	line:47
+j	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	13;"	l	line:13
+j	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	6;"	l	line:6
+joinADCGather	C:\Users\Jake\Documents\Mobot\Mobot\adcgather.c	66;"	f	line:66	signature:(void)
+joinADCGather	C:\Users\Jake\Documents\Mobot\Mobot\adcgather.h	13;"	p	line:13	signature:(void)
+k	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	94;"	l	line:94
+k	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	13;"	l	line:13
+l	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	15;"	l	line:15
+l	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	94;"	l	line:94
+lastError	C:\Users\Jake\Documents\Mobot\Mobot\main.c	54;"	l	line:54
+left_zscore	C:\Users\Jake\Documents\Mobot\Mobot\main.c	61;"	l	line:61
+leftspeed	C:\Users\Jake\Documents\Mobot\Mobot\main.c	56;"	l	line:56
+loadWeights	C:\Users\Jake\Documents\Mobot\Mobot\main.c	19;"	p	line:19	file:	signature:(double *)
+loadWeights	C:\Users\Jake\Documents\Mobot\Mobot\main.c	24;"	f	line:24	signature:(double *weights)
+m2	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	13;"	l	line:13
+m2	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	93;"	l	line:93
+main	C:\Users\Jake\Documents\Mobot\Mobot\main.c	46;"	f	line:46
+mainSetup	C:\Users\Jake\Documents\Mobot\Mobot\main.c	17;"	p	line:17	file:	signature:(void)
+mainSetup	C:\Users\Jake\Documents\Mobot\Mobot\main.c	341;"	f	line:341	signature:(void)
+main_avg	C:\Users\Jake\Documents\Mobot\Mobot\main.c	86;"	l	line:86
+main_stddevs	C:\Users\Jake\Documents\Mobot\Mobot\main.c	87;"	l	line:87
+matrix_invert	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	24;"	f	line:24	signature:( int numRowsCols, double* dstM, double* srcM, double* pivotFlag, int* swappedRows, int* swappedCols )
+matrix_invert	C:\Users\Jake\Documents\Mobot\Mobot\matrix.h	6;"	p	line:6	signature:(int numRowsCols, double* dstM, double* srcM, double* pivotFlag, int* swappedRows, int* swappedCols)
+matrix_multiply	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	12;"	f	line:12	signature:(double *result, double *matrix1, double *matrix2, int rows, int cols1, int cols2)
+matrix_multiply	C:\Users\Jake\Documents\Mobot\Mobot\matrix.h	5;"	p	line:5	signature:(double *, double *, double *, int, int, int)
+matrix_transpose	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	5;"	f	line:5	signature:(double *result, double *matrix, int rows, int cols)
+matrix_transpose	C:\Users\Jake\Documents\Mobot\Mobot\matrix.h	4;"	p	line:4	signature:(double *, double *, int, int)
+maxVal	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	41;"	l	line:41
+max_index	C:\Users\Jake\Documents\Mobot\Mobot\main.c	62;"	l	line:62
+max_zscore	C:\Users\Jake\Documents\Mobot\Mobot\main.c	60;"	l	line:60
+maxspeed	C:\Users\Jake\Documents\Mobot\Mobot\main.c	56;"	l	line:56
+motorSet	C:\Users\Jake\Documents\Mobot\Mobot\motors.c	34;"	f	line:34	signature:(double left, double right, char mode)
+motorSet	C:\Users\Jake\Documents\Mobot\Mobot\motors.h	25;"	p	line:25	signature:(double left, double right, char mode)
+motorSetup	C:\Users\Jake\Documents\Mobot\Mobot\motors.c	7;"	f	line:7	signature:(void)
+motorSetup	C:\Users\Jake\Documents\Mobot\Mobot\motors.h	21;"	p	line:21	signature:(void)
+n	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	15;"	l	line:15
+n	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	94;"	l	line:94
+r	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	43;"	l	line:43
+readData	C:\Users\Jake\Documents\Mobot\Mobot\main.c	25;"	l	line:25
+retM	C:\Users\Jake\Documents\Mobot\Mobot\matrix.c	39;"	l	line:39
+right_zscore	C:\Users\Jake\Documents\Mobot\Mobot\main.c	61;"	l	line:61
+rightspeed	C:\Users\Jake\Documents\Mobot\Mobot\main.c	56;"	l	line:56
+samples	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	14;"	l	line:14
+samples	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	93;"	l	line:93
+samples	C:\Users\Jake\Documents\Mobot\Mobot\main.c	48;"	l	line:48
+saveWeights	C:\Users\Jake\Documents\Mobot\Mobot\main.c	20;"	p	line:20	file:	signature:(double *)
+saveWeights	C:\Users\Jake\Documents\Mobot\Mobot\main.c	30;"	f	line:30	signature:(double *weights)
+second_avg	C:\Users\Jake\Documents\Mobot\Mobot\main.c	73;"	l	line:73
+second_stddevs	C:\Users\Jake\Documents\Mobot\Mobot\main.c	74;"	l	line:74
+seen_line	C:\Users\Jake\Documents\Mobot\Mobot\main.c	49;"	l	line:49
+seen_space	C:\Users\Jake\Documents\Mobot\Mobot\main.c	49;"	l	line:49
+sensor_means	C:\Users\Jake\Documents\Mobot\Mobot\main.c	95;"	l	line:95
+sensor_stddevs	C:\Users\Jake\Documents\Mobot\Mobot\main.c	94;"	l	line:94
+setupADCGather	C:\Users\Jake\Documents\Mobot\Mobot\adcgather.c	10;"	f	line:10	signature:(void)
+setupADCGather	C:\Users\Jake\Documents\Mobot\Mobot\adcgather.h	9;"	p	line:9	signature:(void)
+startADCGather	C:\Users\Jake\Documents\Mobot\Mobot\adcgather.c	55;"	f	line:55	signature:(void)
+startADCGather	C:\Users\Jake\Documents\Mobot\Mobot\adcgather.h	11;"	p	line:11	signature:(void)
+surface_calibrate	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.c	11;"	f	line:11	signature:(double *mean, double *stddev_samples)
+surface_calibrate	C:\Users\Jake\Documents\Mobot\Mobot\calibrate.h	4;"	p	line:4	signature:(double *, double *)
+turns	C:\Users\Jake\Documents\Mobot\Mobot\main.c	43;"	v	line:43
+val	C:\Users\Jake\Documents\Mobot\Mobot\motors.c	35;"	l	line:35
+writtenData	C:\Users\Jake\Documents\Mobot\Mobot\main.c	31;"	l	line:31
+zsum	C:\Users\Jake\Documents\Mobot\Mobot\main.c	63;"	l	line:63

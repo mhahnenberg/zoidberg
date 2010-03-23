@@ -1,0 +1,60 @@
+QRB 1134 Sensors:
+
+Max emitter current = 50ma
+We want to go at 40ma for safety
+
+Ideal distance is probably around 140 mils, but we can push it to 200,
+by 250 mils we are at 65% efficiency.
+
+Rise/fall time is 8us
+Note, if we are saturating, we want to wait longer
+
+Max current source/sink on an IO pin is 4/12 ma
+
+Emitter resitors
+5V numbers
+ = 90 ohms = (5-1.4)/.04)
+3.3V numbesr
+ = 50 ohms
+
+Jake's choice = 100 ohms, nice and simple
+
+Voltage generating resitors:
+Smaller value of Rl is faster response time, but less accurate
+
+If we want to get 3.3V on the output, which is the max unless we provide a vref:
+
+3.3/(.6/1000) = 5500 ohm
+
+
+Pin outs:
+ AN0-AN5 + AN9-10 - collector sense
+ 
+ RB8 - Even Emitter Control
+ RB9 - Odd emitter control
+
+ RA4 - Start button
+
+ RP10/RB10 - PGD
+ RP11/RB11 - PGC
+ RB4 - Brake left
+ RB5 - Brake right
+ RB6 - Direction left
+ RB7 - Direction right
+   
+
+ RB13 - PWM out left
+ RB12 - PWM out right
+
+Hardware Todo:
+ - Investigate a system to change sensor vertical height dynmically
+
+Electronics Todo:
+ - Clean Main Voltage to 3.3 V supply with huge caps and some good filtering
+ - Easy to access motor control signal connecitons
+ - Wire a main board, needs PIC socket, sensor+button input with MC output, can be on same board as supply
+
+Software Todo:
+ - Line center + width algo
+ - Divergance detection and tracking
+ - Course end detection

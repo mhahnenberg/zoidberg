@@ -1,0 +1,7 @@
+SEARCH_DIR(..\..\..\..\lib)
+SEARCH_DIR(..\..\..\..\support\gld)
+INPUT(-ldsp)
+INPUT(-lpic30)
+INPUT(-lm)
+INPUT(-lc)
+INCLUDE p33FJ128GP802.gld
